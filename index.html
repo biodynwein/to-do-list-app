@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>to-do-list-app</title>
 	<link href="css/styles.css" rel="stylesheet" type="text/css"/>
 </head>
-
 <body>
 	<div class="container">
 		<h2>To Do List App</h2>
-		<p><em> Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
-
+		<p><em>Doppelklicke auf ein Element, um es zu entfernen, klicke auf "X", um ein Element zu löschen, und ziehe Elemente, um sie neu anzuordnen.</em></p>
 		<form name="toDoList">
 			<input type="text" name="ListItem" id="input"/>
 		</form>
-
 		<div onclick="newItem()" id="button">Add</div>
 		<br/>
 		<ol id="list"></ol>
